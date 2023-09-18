@@ -18,12 +18,13 @@ Because of its design, custom filesystems can be plugged in to further enhance t
     // File Copying:
     var newFile = directory.GetFile("newNonExistingFile.txt");
     await fileTwoLevelsDown.CopyToAsync(newFile, overwrite: false, CancellationToken.None);
-    
-# License 
-MIT. 
 
+Contributors to this project are welcome to add their attribution information to the project under the Contributors section below:
 # Contributors 
 <add your credit here>
+
+# License 
+MIT. 
     
 # FluentFileSystem Copyright 
 Copyright (c) 2023 Michael D. Corbett
